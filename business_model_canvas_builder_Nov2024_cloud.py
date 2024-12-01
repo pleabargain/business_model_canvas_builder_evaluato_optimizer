@@ -123,10 +123,10 @@ if st.button('Start Business Model Evaluation'):
 
     st.markdown("**Business Model Canvas Creation**")
     st.markdown("** Step 1: Initial business model created based on user input:**")
-    st.write(f"""{create_business_model_canvas.output.raw}""")
+    st.write(f"""{create_business_model_canvas.output.raw_output}""")
     st.markdown("** Step 2: Critial analysis of the initial business model:**")
-    st.write(f"""{critique_business_model_canvas.output.raw}""")
+    st.write(f"""{critique_business_model_canvas.output.raw_output}""")
     st.markdown("** Step 3: Optimized business model canvas:**")
-    st.write(f"""{optimize_business_model_canvas.output.raw}""")
+    st.write(f"""{optimize_business_model_canvas.output.raw_output}""")
 else:
     st.write('Please click the button to start the interview')
