@@ -2,6 +2,16 @@
 
 This application helps you create, evaluate, and optimize a business model canvas.
 
+After entering your business model canvas data, click "Start Business Model Evaluation" to generate analysis. Then, if you like it, copy the text directly from the web page.
+
+
+This application is built with Streamlit and uses Groq. 
+
+It runs on a local machine and on streamlit community cloud.
+
+In the data tab, you can save your business model canvas data as a JSON file and as a text file. Keep in mind saving the text file will on streamlit.io is NOT working at this time.
+
+
 ## Business Model Canvas Components
 
 ### Value Proposition
@@ -79,6 +89,12 @@ What are the most important costs inherent in your business model?
 - Cost optimization opportunities
 
 ## Using the Application
+
+Locally you can use .env and pass your Groq API key as an environment variable. like this:
+
+```
+GROQ_API_KEY="your_groq_api_key"
+```
 
 1. Fill in the details for each component of the business model canvas
 2. Use the help tooltips (?) for guidance on each component
