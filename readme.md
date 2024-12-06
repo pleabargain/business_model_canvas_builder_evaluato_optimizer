@@ -1,44 +1,108 @@
 # Business Model Canvas Builder
 
-## Overview
+This application helps you create, evaluate, and optimize a business model canvas.
 
-The Business Model Canvas Builder is a Streamlit application designed to assist users in creating, evaluating, and optimizing a business model canvas. This tool is inspired by Dries Faems and aims to provide a structured approach to developing a coherent and consistent business model.
+## Business Model Canvas Components
 
-## Features
+### Value Proposition
+What value do you deliver to the customer? Which customer needs are you satisfying?
+- Products and services you offer
+- Pain relievers and gain creators
+- Unique selling points
+- Why customers should choose you over competitors
 
-- **User Input**: Users can input descriptions for various components of the business model canvas, including value proposition, customer profile, distribution channel, customer relationship, revenue streams, key resources, key activities, key partners, and cost structure.
-- **Business Model Evaluation**: The application uses a series of agents to build, critique, and optimize the business model canvas based on user input.
-- **Sequential Process**: The application follows a sequential process to ensure that the business model is coherent, consistent, and unique.
+### Customer Segments
+Who are your most important customers? For whom are you creating value?
+- Target market demographics
+- User personas
+- Market size and characteristics
+- Customer pain points and gains
 
-## Usage
+### Distribution Channels
+How do you reach your customers? Through which channels do your customer segments want to be reached?
+- Sales channels (direct/indirect)
+- Marketing channels
+- Communication channels
+- Physical/digital presence
+- Customer touchpoints
 
-1. **API Key**: Start by entering your Groq API key. If you do not have one, you can obtain it from [Groq Playground](https://console.groq.com/playground).
-2. **Input Details**: Provide detailed descriptions for each component of the business model canvas. You can leave fields empty if specific information is not available.
-3. **Start Evaluation**: Click the "Start Business Model Evaluation" button to begin the process.
-4. **Results**: The application will display the initial business model, a critical analysis, and an optimized version of the business model canvas.
+### Customer Relationships
+What type of relationship does each customer segment expect you to establish and maintain?
+- Personal assistance
+- Self-service
+- Automated services
+- Communities
+- Co-creation
+- Customer support strategy
 
-## Technical Details
+### Revenue Streams
+For what value are your customers willing to pay? How do they currently pay?
+- Pricing models
+- Payment methods
+- Revenue sources
+- Pricing strategy
+- Recurring vs one-time revenues
 
-- **Streamlit**: The application is built using Streamlit for a user-friendly interface.
-- **Groq API**: Utilizes the Groq API for language model processing.
-- **CrewAI**: Employs CrewAI to manage agents and tasks for building, critiquing, and optimizing the business model canvas.
+### Key Resources
+What key resources does your value proposition require?
+- Physical assets
+- Intellectual property
+- Human resources
+- Financial resources
+- Technology infrastructure
+- Brand and reputation
 
-## Installation
+### Key Activities
+What key activities does your value proposition require?
+- Production
+- Problem solving
+- Platform/Network
+- Research & Development
+- Marketing & Sales
+- Supply chain management
 
-To run the application, ensure you have the necessary dependencies installed. You can install them using the following command:
+### Key Partners
+Who are your key partners and suppliers? What key resources are you acquiring from them?
+- Strategic alliances
+- Supplier relationships
+- Joint ventures
+- Coopetition
+- Key suppliers and their roles
 
-```bash
-pip install -r requirements.txt
-```
+### Cost Structure
+What are the most important costs inherent in your business model?
+- Fixed costs
+- Variable costs
+- Economies of scale
+- Cost-driven vs value-driven
+- Major cost centers
+- Cost optimization opportunities
 
-## License
+## Using the Application
 
-This project is licensed under the MIT License.
+1. Fill in the details for each component of the business model canvas
+2. Use the help tooltips (?) for guidance on each component
+3. Click "Start Business Model Evaluation" to generate analysis
+4. View and manage your data in the DATA tab:
+   - View and edit your data in JSON format
+   - Choose where to save your files
+   - Save as JSON only or combined output (JSON + Analysis)
+   - Files are automatically timestamped
+5. Monitor application activity in the LOGGING tab
 
-## Acknowledgments
+## Save Options
 
-Special thanks to Dries Faems for the inspiration behind this application.
+The DATA tab provides flexible options for saving your work:
+- **JSON Only**: Saves your business model data in JSON format
+- **Combined Output**: Saves both your business model data and the AI analysis in a single file
+- Choose any folder on your system to save the files
+- Files are automatically named with timestamps for easy tracking
 
-## Additional Resources
+## Tips for Success
 
-For more information on the Business Model Canvas, visit [Wikipedia](https://en.wikipedia.org/wiki/Business_Model_Canvas).
+- Be as specific as possible in your descriptions
+- Consider the relationships between different components
+- Think about your competitive advantages
+- Focus on creating unique value for your customers
+- Regular updates and revisions can help refine your business model
+- Save your work regularly using the options in the DATA tab
